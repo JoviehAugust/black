@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ECHO TREK TOURS AND TRAVEL.</title>
+  <link rel="icon" type="image/jpg" href="images/logo.jpg">
+  
+  <style>
+    body {
+      margin: 0;
+      font-family: 'roboto', sans-serif;
+      background-color: #f9f9f9;
+    }
+    header {
+      background-image:url(1.jpg) ;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+    header h1 {
+      font-size: 48px;
+      margin: 0;
+    }
+    header p {
+      font-size: 20px;
+    }
+    nav {
+      background-color: #095edd;
+      padding: 10px 20px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .section {
+      padding: 40px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .section h2 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 10px;
+      overflow: hidden;
+      width: 300px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+    .card-content {
+      padding: 15px;
+    }
+    .card-content h3 {
+      margin: 0 0 10px;
+    }
+    footer {
+      background-color: #0f30e9;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#destinations">Destinations</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+    <form action="/search" method="get"> <input type="/search" id="search" name="q" placeholder="search..."> 
+    <button type="submit"> <search></search></button></form>
+  </nav>
+
+  <header>
+    <h1 style="color: rgb(240, 234, 234);">Explore the World with Echo trek.</h1>
+    <p style="color: rgb(8, 1, 63);">Your adventure begins here</p>
+  </header>
+
+  <section class="section" id="destinations">
+    <h2>Featured Destinations</h2>
+    
+    
+    <div class="cards">
+      <div class="card">
+        <img src="images/2paris.jpg" alt=" Paris">
+        <div class="card-content">
+          <h3>Paris, France</h3>
+          <p>Romantic city of lights and timeless beauty.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/3saudi.jpg" alt="saudi arabia" />
+        <div class="card-content">
+          <h3>saudi arabia</h3>
+          <p>Tropical paradise for relaxation and adventure.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/new york.jpg" alt="New York" />
+        <div class="card-content">
+          <h3>New York, USA</h3>
+          <p>The city that never sleeps, full of energy and culture.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="services">
+    <h2>Our Services</h2>
+    <div class="cards">
+      <div class="card">
+        <div class="card-content">
+          <h3>Custom Itineraries</h3>
+          <p>We design trips that match your preferences and budget.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-content">
+          <h3>Group Tours</h3>
+          <p>Join others in guided tours around the world’s best spots.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-content">
+          <h3>Flight & Hotel Booking</h3>
+          <p>We handle your bookings so you can travel stress-free.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>Contact Us</h2>
+    <p style="text-align:center;">Kampala Uganda, <br>
+       📞 +256 770938162 <br>
+       📧 contact@echotrek.com
+    </p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Echo trek Travel Agency. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
+
